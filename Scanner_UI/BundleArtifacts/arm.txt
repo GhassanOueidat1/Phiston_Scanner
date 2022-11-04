@@ -1,0 +1,5 @@
+MainPackage=D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\ARM\Release\ScanTest1_0.71.0.0_ARM.msix
+ResourcePack=D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\ARM\Release\ScanTest1_0.71.0.0_scale-100.msix
+ResourcePack=D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\ARM\Release\ScanTest1_0.71.0.0_scale-125.msix
+ResourcePack=D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\ARM\Release\ScanTest1_0.71.0.0_scale-150.msix
+ResourcePack=D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\ARM\Release\ScanTest1_0.71.0.0_scale-400.msix

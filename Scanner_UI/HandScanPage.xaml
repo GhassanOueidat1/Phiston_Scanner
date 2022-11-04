@@ -1,0 +1,160 @@
+﻿<Page
+    x:Class="ScanTest1.HandScanPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ScanTest1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="OnLoad" >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  x:Name="ManualScanLayout"
+          Height="720" Width="480">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".25*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width=".25*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height=".2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+
+
+
+
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Manual Scan Data Entry" Grid.Column="0" Grid.ColumnSpan="6" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" Grid.Row="0" />
+        <TextBlock Text="Use hand scanner to scan barcodes" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" />
+        <TextBlock Text="CODE VALUE" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Text="TYPE" Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code1" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+        <Border Background="LightSkyBlue" Grid.Row="4" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type1" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code2" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+        <Border Background="LightSkyBlue" Grid.Row="5" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type2" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code3" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+        <Border Background="LightSkyBlue" Grid.Row="6" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type3" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code4" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+        <Border Background="LightSkyBlue" Grid.Row="7" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type4" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code5" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+        <Border Background="LightSkyBlue" Grid.Row="8" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type5" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code6" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+        <Border Background="LightSkyBlue" Grid.Row="9" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type6" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+
+        <Border Background= "LightSkyBlue" Grid.Column="1" Grid.Row="10" Grid.ColumnSpan="2" Margin="4">
+            <TextBlock x:Name="Code7" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+        <Border Background="LightSkyBlue" Grid.Row="10" Grid.Column="3"  Margin="4">
+            <TextBlock x:Name="Type7" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Border>
+
+        <Button x:Name="RemoveCode1" Content="DELETE" Grid.Column="4" Grid.Row="4"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode1_Click"/>
+        <Button x:Name="RemoveCode2" Content="DELETE" Grid.Column="4" Grid.Row="5"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode2_Click"/>
+        <Button x:Name="RemoveCode3" Content="DELETE" Grid.Column="4" Grid.Row="6"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode3_Click"/>
+        <Button x:Name="RemoveCode4" Content="DELETE" Grid.Column="4" Grid.Row="7"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode4_Click"/>
+        <Button x:Name="RemoveCode5" Content="DELETE" Grid.Column="4" Grid.Row="8"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode5_Click"/>
+        <Button x:Name="RemoveCode6" Content="DELETE" Grid.Column="4" Grid.Row="9"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode6_Click"/>
+        <Button x:Name="RemoveCode7" Content="DELETE" Grid.Column="4" Grid.Row="10"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="RemoveCode7_Click"/>
+
+        <Button x:Name="LogButton" Content="Log Only" Grid.Column="1" Grid.Row="12" Grid.ColumnSpan="2"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="LogButton_Click"/>
+        <Button x:Name="ScanButton" Content="Autoscan and Log" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="12"  HorizontalAlignment="Center" VerticalAlignment="Center" Click="ScanButton_Click"/>
+        <Button x:Name="QuitButton" Content="Quit" Grid.Row="16" Grid.Column="2" Grid.ColumnSpan='2' 
+                VerticalAlignment="Center" HorizontalAlignment="Center" Click="QuitButton_Click"/>
+
+        <TextBlock Text="Logs handheld data to file" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="13" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Text="Performs autoscan, capturing drive image and readable barcodes. All data, including hand scanned codes, are logged to file." 
+                   Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="13" TextWrapping="Wrap" Grid.RowSpan="3"
+                   VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+
+        <Popup VerticalOffset="100" HorizontalOffset="100" x:Name="ScanPopup">
+            <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" 
+                Background="{StaticResource ApplicationPageBackgroundThemeBrush}"
+                BorderThickness="2" Width="250" Height="150">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+                    <TextBlock Text="Insert drive into Secure Scanner and press scan..." FontSize="18" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="15" >
+                        <Button Content="SCAN" Click="PopScanButton_Click" HorizontalAlignment="Center"/>
+                        <Button Content="QUIT" Click="PopQuitButton_Click" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+
+        <Popup VerticalOffset="100" HorizontalOffset="100" x:Name="NoScannerPopup">
+            <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" 
+                Background="{StaticResource ApplicationPageBackgroundThemeBrush}"
+                BorderThickness="2" Width="250" Height="150">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+                    <TextBlock Text="Unable to open HID POS Scanner" FontSize="18" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="15" >
+                        <Button Content="Return" Click="NoScanReturn_Click" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+
+    </Grid>
+</Page>

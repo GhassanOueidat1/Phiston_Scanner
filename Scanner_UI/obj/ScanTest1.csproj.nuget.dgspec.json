@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OneDrive - Proton Design Inc\\Documents\\GitHub\\Phiston\\Scanner UI\\ScanTest1.csproj": {}
+  },
+  "projects": {
+    "D:\\OneDrive - Proton Design Inc\\Documents\\GitHub\\Phiston\\Scanner UI\\ScanTest1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive - Proton Design Inc\\Documents\\GitHub\\Phiston\\Scanner UI\\ScanTest1.csproj",
+        "projectName": "ScanTest1",
+        "projectPath": "D:\\OneDrive - Proton Design Inc\\Documents\\GitHub\\Phiston\\Scanner UI\\ScanTest1.csproj",
+        "packagesPath": "C:\\Users\\tim\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive - Proton Design Inc\\Documents\\GitHub\\Phiston\\Scanner UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Nuget Local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "DataSymbol.BarcodeReader": {
+              "target": "Package",
+              "version": "[5.67.4, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

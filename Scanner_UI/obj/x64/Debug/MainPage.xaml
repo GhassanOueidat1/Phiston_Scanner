@@ -1,0 +1,56 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="ScanTest1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ScanTest1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                >
+
+    <Grid x:ConnectionId='2' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  x:Name="LayoutRoot"
+          Height="800" Width="480" RenderTransformOrigin="0.5, 0.5">
+
+        <Grid.RenderTransform>
+            <CompositeTransform Rotation="90" TranslateY="-160"/>
+        </Grid.RenderTransform>
+
+        <!--
+        <Page.Resources>
+            <CollectionViewSource x:Name="DeviceListSource"/>
+        </Page.Resources>
+        -->
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="720" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!--Persistant overlay -->
+            
+            <Button x:ConnectionId='3' x:Name="LogoButton" Grid.Row="0" Grid.Column="0"                    Background="White" >
+                <Image x:ConnectionId='6' x:Name="Logo1" Grid.Row ="0" Grid.Column="0" Grid.RowSpan="1" Grid.ColumnSpan="1" Source="Assets\SplashScreen\Square44x44Logo.scale-400.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-20,-20,-20,-20"/>
+            </Button>
+
+            <TextBlock x:ConnectionId='4' x:Name ="Title" Text="Secure Scanner" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" FontSize="48" Margin="40,0,0,0"
+                   FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" FontStyle="Italic" /> 
+            
+            <Frame x:ConnectionId='5' x:Name="MainFrame"
+               Height="720"
+               Width="480"
+               Grid.Column="0"
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               />
+        </Grid>
+
+    </Grid>
+</Page>
+
+

@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-RS6M93H</Machine>
+    <WindowsUser>tim</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>504b6768-9fd1-4a25-8f20-00094f792c7e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Proton Design</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B64E93B5C67528E63240CF14C5AED6730C010676FC19EAB1541E62B5ED9D6636</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ScanTest1-112619_0.71.0.0_x86__rt79g8djfbfgy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ScanTest1-112619_rt79g8djfbfgy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ScanTest1-112619</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Proton Design</RegisteredPackagePublisher>
+    <RegisteredVersion>0.71.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-04T15:36:20.571</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\ScanTest1.exe">
+      <PackagePath>entrypoint\ScanTest1.exe</PackagePath>
+      <Modified>2021-10-04T15:36:19.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tim\.nuget\packages\datasymbol.barcodereader\5.67.4\runtimes\win10-x86\native\DataSymbol.BarcodeReader.dll">
+      <PackagePath>DataSymbol.BarcodeReader.dll</PackagePath>
+      <Modified>2020-07-24T20:08:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T23:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tim\.nuget\packages\datasymbol.barcodereader\5.67.4\lib\uap10.0\DataSymbol.BarcodeReader.winmd">
+      <PackagePath>DataSymbol.BarcodeReader.winmd</PackagePath>
+      <Modified>2020-07-24T20:08:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-23T05:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LogoRot90_4-3.scale-100.png">
+      <PackagePath>Assets\LogoRot90_4-3.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LogoRot90_4-3.scale-125.png">
+      <PackagePath>Assets\LogoRot90_4-3.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LogoRot90_4-3.scale-150.png">
+      <PackagePath>Assets\LogoRot90_4-3.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LogoRot90_4-3.scale-200.png">
+      <PackagePath>Assets\LogoRot90_4-3.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\LogoRot90_4-3.scale-400.png">
+      <PackagePath>Assets\LogoRot90_4-3.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Pi Logo v1 90 4-3.scale-200.png">
+      <PackagePath>Assets\Pi Logo v1 90 4-3.scale-200.png</PackagePath>
+      <Modified>2019-04-03T21:27:17.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2019-04-03T21:47:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <Modified>2019-04-03T21:47:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <Modified>2019-04-03T21:47:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2019-04-03T21:47:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-200.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-200.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-200.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-200.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-200.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-200.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-200.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-200.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-200.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <Modified>2019-04-03T21:47:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LargeTile.scale-100.png">
+      <PackagePath>Assets\SplashScreen\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LargeTile.scale-125.png">
+      <PackagePath>Assets\SplashScreen\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LargeTile.scale-150.png">
+      <PackagePath>Assets\SplashScreen\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LargeTile.scale-200.png">
+      <PackagePath>Assets\SplashScreen\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LargeTile.scale-400.png">
+      <PackagePath>Assets\SplashScreen\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LogoRot90_4-3.scale-100.png">
+      <PackagePath>Assets\SplashScreen\LogoRot90_4-3.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LogoRot90_4-3.scale-125.png">
+      <PackagePath>Assets\SplashScreen\LogoRot90_4-3.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LogoRot90_4-3.scale-150.png">
+      <PackagePath>Assets\SplashScreen\LogoRot90_4-3.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LogoRot90_4-3.scale-200.png">
+      <PackagePath>Assets\SplashScreen\LogoRot90_4-3.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\LogoRot90_4-3.scale-400.png">
+      <PackagePath>Assets\SplashScreen\LogoRot90_4-3.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SmallTile.scale-100.png">
+      <PackagePath>Assets\SplashScreen\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SmallTile.scale-125.png">
+      <PackagePath>Assets\SplashScreen\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SmallTile.scale-150.png">
+      <PackagePath>Assets\SplashScreen\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SmallTile.scale-200.png">
+      <PackagePath>Assets\SplashScreen\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SmallTile.scale-400.png">
+      <PackagePath>Assets\SplashScreen\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:06:31.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:06:31.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:06:31.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:06:31.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:06:31.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\SplashScreen\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-11T18:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\StoreLogo.scale-100.png">
+      <PackagePath>Assets\SplashScreen\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\StoreLogo.scale-125.png">
+      <PackagePath>Assets\SplashScreen\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\StoreLogo.scale-150.png">
+      <PackagePath>Assets\SplashScreen\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\StoreLogo.scale-200.png">
+      <PackagePath>Assets\SplashScreen\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\StoreLogo.scale-400.png">
+      <PackagePath>Assets\SplashScreen\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\SplashScreen\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\SplashScreen\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\SplashScreen\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\SplashScreen\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\SplashScreen\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\SplashScreen\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-27T00:07:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <Modified>2019-11-27T00:00:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <Modified>2019-11-27T00:00:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-03-22T11:47:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\ScanTest1.xr.xml">
+      <PackagePath>ScanTest1.xr.xml</PackagePath>
+      <Modified>2020-08-02T00:02:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\HandScanPage.xbf">
+      <PackagePath>HandScanPage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\ConfigureMachinePage.xbf">
+      <PackagePath>ConfigureMachinePage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\FactoryConfigurePage.xbf">
+      <PackagePath>FactoryConfigurePage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\LicensePage.xbf">
+      <PackagePath>LicensePage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\PasswordPage.xbf">
+      <PackagePath>PasswordPage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\Screensaver.xbf">
+      <PackagePath>Screensaver.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\UserIDPage.xbf">
+      <PackagePath>UserIDPage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\UserPage.xbf">
+      <PackagePath>UserPage.xbf</PackagePath>
+      <Modified>2021-10-04T15:36:19.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-23T04:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-10-04T15:36:20.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive - Proton Design Inc\Documents\GitHub\Phiston\Scanner UI\bin\x86\Debug\Core\ScanTest1.exe">
+      <PackagePath>ScanTest1.exe</PackagePath>
+      <Modified>2021-10-04T15:36:20.553</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

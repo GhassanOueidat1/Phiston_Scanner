@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"  xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10" IgnorableNamespaces="uap mp iot">
+  <Identity Name="ScanTest1-101121" Publisher="CN=Proton Design" Version="0.81.0.0" />
+  <mp:PhoneIdentity PhoneProductId="504b6768-9fd1-4a25-8f20-00094f792c7e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>ScanTest1</DisplayName>
+    <PublisherDisplayName>tim</PublisherDisplayName>
+    <Logo>Assets\SplashScreen\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ScanTest1.App">
+      <uap:VisualElements DisplayName="ScanTest1" Square150x150Logo="Assets\SplashScreen\LogoRot90_4-3.png" Description="ScanTest1" BackgroundColor="white" Square44x44Logo="Assets\SplashScreen\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\SplashScreen\Wide310x150Logo.png" Square310x310Logo="Assets\SplashScreen\LargeTile.png" Square71x71Logo="Assets\SplashScreen\SmallTile.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen\SplashScreen.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="scanner">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.dat</uap:FileType>
+              <uap:FileType>.txt</uap:FileType>
+              <uap:FileType>.csv</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.lic</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:DisplayName>scanner</uap:DisplayName>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <uap:Capability Name="removableStorage"/>
+    <iot:Capability Name="lowLevelDevices"/>
+    <iot:Capability Name="systemManagement"/>
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="serialcommunication">
+      <Device Id="any">
+        <Function Type="name:serialPort" />
+      </Device>
+    </DeviceCapability>
+    <DeviceCapability Name="pointOfService"/>
+    <DeviceCapability Name="microphone"/>
+  </Capabilities>
+</Package>
